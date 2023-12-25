@@ -1,0 +1,772 @@
+/*---------- Google Fonts Linking ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Konkhmer+Sleokchher&family=Noto+Sans&family=Roboto:wght@300&display=swap');
+
+/*---------- CSS Reset Started ----------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    scroll-behavior: smooth;
+}
+/*---------- CSS Reset Ended ----------*/
+
+/*---------- Navbar Started ----------*/
+#navbar {
+    background-color: rgba(22, 22, 23, .8);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 62rem;
+    padding: 0 1rem;
+    height: 43px;
+}
+
+.logo-img img {
+    height: 1.1rem;
+}
+#nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+}
+
+#nav-links ul li {
+    list-style: none;
+}
+#nav-links ul li:nth-child(7){
+    width: 3.6rem;
+}
+
+#nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.search-icon a i{
+    color: white;
+    font-size: 0.9rem;
+}
+.cart-logo img{
+    height: 1rem;
+    filter: invert(100%);
+}
+.hamburger{
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.hamburger .mobile-nav-icon img{
+    width: 2rem;
+    z-index: 999;
+}
+/*---------- Navbar Ended ----------*/
+
+/*---------- Offer Section Started ----------*/
+#offer {
+    padding: 12px 0;
+}
+
+#offer p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+#offer p a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.8rem;
+    color: #2997ff;
+    text-decoration: none;
+}
+/*---------- Offer Section Ended ----------*/
+
+/*---------- Content-1,2,3,4 Started ----------*/
+.content {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.cont-1-video,
+.cont-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    overflow: clip;
+}
+
+.cont-1-video video {
+    height: 624px;
+}
+
+.cont-img {
+    height: 583px;
+}
+
+.cont-5-img img {
+    width: 1240px;
+}
+
+.content>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.cont-1-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 495px;
+    padding-bottom: 80px;
+}
+
+.cont-1-links a {
+    text-decoration: none;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    padding: 8px 23px;
+    border-radius: 24px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+#link-1 {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+
+#link-1:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#link-2 {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+
+}
+
+#link-2:hover {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.cont-container {
+    padding-top: 49px;
+    height: 583px;
+}
+
+.cont-heading {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.cont-heading h1 {
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: white;
+    font-size: 3rem;
+    font-weight: lighter;
+    line-height: 4rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.cont-container h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.cont-links {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+    margin-top: 12px;
+}
+
+.cont-links span {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.cont-links span a {
+    color: #2997ff;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+.cont-links span a:hover {
+    text-decoration: underline;
+}
+
+.cont-3-container h1 {
+    color: black;
+}
+
+.cont-3-container h2 {
+    color: black;
+}
+
+.cont-4-heading img {
+    height: 2.8rem;
+    margin-top: 4px;
+}
+
+.cont-4-heading h1 {
+    font-size: 2.25rem;
+}
+
+.cont-4-container h3 {
+    color: rgb(211, 47, 47);
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 9px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+/*---------- Content-1,2,3,4 Ended ----------*/
+
+/*---------- Content-5 Started ----------*/
+#content-5 {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.cont-5-insidecont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 583px;
+    padding-top: 54px;
+    /* width: 393px; */
+    margin: 0 auto;
+}
+
+.cont-5-container:nth-child(2) .cont-5-insidecont {
+    padding-top: 416px;
+    height: 164px;
+}
+
+.cont-5-heading {
+    display: flex;
+}
+
+.cont-5-heading img {
+    filter: invert(100%);
+    height: 2.3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.cont-5-container:nth-child(2) .cont-5-heading img {
+    filter: invert(0%);
+}
+
+.cont-5-heading h1 {
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-weight: lighter;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.cont-5-container:nth-child(5) h1 {
+    font-size: 2rem;
+}
+
+.cont-5-container:nth-child(even) h1 {
+    color: white;
+}
+
+.cont-5-insidecont h2 {
+    font-size: 1.3rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+.cont-5-container:nth-child(even) h2 {
+    color: white;
+}
+
+.cont-5-insidecont h3 {
+    color: rgb(253, 129, 83);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 9px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+.cont-5-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 8px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.cont-5-links a {
+    color: #2997ff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    word-spacing: 0.3rem;
+}
+
+.cont-5-links div a:hover {
+    text-decoration: underline;
+}
+.cont-5-insidelink{
+    display: flex;
+    align-items: center;
+}
+/*---------- Content-5 Ended ----------*/
+
+/*---------- Footer Started ----------*/
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.077);
+}
+
+.foot-inside {
+    width: 78%;
+}
+
+.foot-para p {
+    font-size: 0.8rem;
+    margin: 17px 0;
+    line-height: 1.1rem;
+}
+
+.foot-para a {
+    color: black;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2px 0;
+}
+
+.foot-links-inside {
+    line-height: 1.3rem;
+    margin: 17px 0;
+}
+
+.foot-links-inside h2 {
+    font-size: 0.9rem;
+}
+
+.foot-links-inside ul li {
+    list-style: none;
+}
+
+.foot-links-inside ul li a {
+    color: black;
+    font-size: 0.76rem;
+    text-decoration: none;
+}
+
+.foot-links-inside ul li a:hover {
+    text-decoration: underline;
+}
+
+.foot-more {
+    padding-bottom: 10px;
+}
+
+.foot-more p {
+    font-size: 0.88rem;
+}
+
+.foot-more p a {
+    color: #2997ff;
+    font-size: 0.88rem;
+}
+
+.foot-other-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.foot-other-links p {
+    font-size: 0.8rem;
+}
+
+.foot-other-links ul {
+    display: flex;
+}
+
+.foot-other-links ul li {
+    list-style: none;
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+.foot-other-links ul li a {
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+}
+
+.foot-other-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.foot-other-links>a {
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.foot-other-links>a:hover {
+    text-decoration: underline;
+}
+/*---------- Footer Ended ----------*/
+
+
+@media screen and (max-width: 965px) {
+
+    /*---------- Responsive: Navbar Started ----------*/
+    #nav{
+        max-width: 99%;
+    }
+    #nav-container {
+        gap: 2rem;
+    }
+        
+    #nav-links{
+        min-height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(16, 14, 13);
+        display: flex;
+        justify-content: left;
+        padding: 70px 60px;
+        transform: translateY(-100%);
+        
+    }
+    #nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.1rem;
+    }
+    #nav-links ul li:nth-child(7) {
+        width: 100%;
+    }
+    #nav-links ul li a{
+        font-size: 1.8rem;
+    }
+    .hamburger{
+        width: 1rem;
+        display: flex;
+        gap: 0.3rem;
+        z-index: 999;
+    }
+    .hamburger .cross img{
+        display: none;
+    }
+    .active .cart-logo img{
+        display: none;
+    }
+    .active #nav-links{
+        transform: translateY(0%);
+    }
+    .active .hamburger .line img{
+        display: none;
+    }
+    .active .hamburger .cross img{
+        display: block;
+    }
+    /*---------- Responsive: Navbar Ended ----------*/
+
+    /*---------- Responsive: Section Started ----------*/
+    .cont-1-video video{
+        height: 570px;
+    }
+    .cont-1-links{
+        padding-top: 442px;
+    }
+    .cont-img,
+    .cont-container,
+    .cont-5-insidecont,
+    .cont-5-container:nth-child(2) .cont-5-insidecont{
+        height: 534px;
+    }
+    /*---------- Responsive: Section Ended ----------*/
+    
+    /*---------- Responsive: Footer Started ----------*/
+    .foot-inside {
+        width: 92%;
+    }
+    .foot-links-inside ul{
+        padding: 1rem;
+        display: none;
+    }
+    .foot-links{
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .foot-links-inside{
+        margin: 0;
+        padding: 1rem 0;
+        border-bottom: 1px solid gray;
+        cursor: pointer;
+    }
+    .foot-links-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-other-links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .foot-other-links>a{
+        position: relative;
+        margin-bottom: 1.8rem;
+    }
+    .foot-other-links p{
+        margin-bottom: 0.5rem;
+    }
+    .foot-other-links ul li:nth-child(1){
+        padding-left: 0;
+    }
+    /*---------- Responsive: Footer Ended ----------*/
+}
+
+@media screen and (max-width: 811px) {
+    /*---------- Responsive: Section Started ----------*/
+    .cont-1-video video{
+        height: 500px;
+    }
+    .cont-1-links{
+        padding-top: 380px;
+    }
+    .cont-1-links a{
+        padding: 4px 13px;
+    }
+    .cont-heading h1 {
+        font-size: 2.5rem;
+    }
+    
+    .cont-container h2 {
+        font-size: 1.3rem;
+    }
+    .cont-links {
+        gap: 2rem;
+    }
+
+    .cont-links span a {
+        font-size: 1.1rem;
+    }
+    .cont-4-heading img {
+        height: 2.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .cont-img,
+    .cont-container,
+    .cont-5-insidecont,
+    .cont-5-container:nth-child(2) .cont-5-insidecont{
+        height: 534px;
+    }
+    #content-5 {
+        grid-template-columns: 1fr;
+    }
+    .cont-5-heading img{
+        height: 2rem;
+        margin-top: 0.2rem;
+    }
+    .cont-5-heading h1 {
+        font-size: 1.8rem;
+    }
+    .cont-5-insidecont h2{
+        font-size: 1rem;
+    }
+    .cont-5-links a {
+        word-spacing: 0.2rem;
+    }
+    /*---------- Responsive: Section Ended ----------*/
+}
+
+@media screen and (max-width: 584px){
+    /*---------- Responsive: Section Started ----------*/
+    #offer p,
+    #offer p a  {
+        font-size: 0.6rem;
+    }
+    .cont-1-video video {
+        height: 270px;
+    }
+    .cont-1-links {
+        padding-top: 200px;
+        padding-bottom: 46px;
+    }
+    .cont-1-links a {
+        padding: 2px 10px;
+        font-size: 0.6rem;
+    }
+    .cont-img, 
+    .cont-container, 
+    .cont-5-insidecont, 
+    .cont-5-container:nth-child(2) .cont-5-insidecont {
+        height: 340px;
+    }
+    .cont-heading h1 {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+    
+    .cont-container h2,
+    .cont-links span a {
+        font-size: 1rem;
+    }
+    .cont-links {
+        gap: 1.4rem;
+    }
+    .cont-container {
+        padding-top: 19px;
+    }
+    .cont-4-heading img {
+        height: 2rem;
+        margin-top: 0;
+    }
+    .cont-5-insidecont {
+        padding-top: 16px;
+    }
+    .cont-5-heading h1 {
+        font-size: 1.6rem;
+    }
+    .cont-5-insidecont h2 {
+        font-size: 0.9rem;
+    }
+    .cont-5-heading img {
+        height: 1.8rem;
+        margin-top: 0.3rem;
+    }
+    .cont-5-links a {
+        font-size: 0.9rem;
+        word-spacing: 0.1rem;
+    }
+    .cont-5-container:nth-child(2) .cont-5-insidecont {
+        padding-top: 188px;
+    }
+    /*---------- Responsive: Section Ended ----------*/
+
+    /*---------- Responsive: Footer Started ----------*/
+    .foot-para p {
+        font-size: 0.6rem;
+    }
+    .foot-links {
+        margin: 1rem 0;
+    }
+    .foot-links-inside {
+        padding: 0.5rem 0;
+    }
+    .foot-links-inside h2 {
+        font-size: 0.8rem;
+    }
+    .foot-more p,
+    .foot-more p a,
+    .foot-other-links p,
+    .foot-other-links ul li a {
+        font-size: 0.7rem;
+    }
+    .foot-other-links ul {
+        flex-wrap: wrap;
+    }
+    /*---------- Responsive: Footer Ended ----------*/
+}
