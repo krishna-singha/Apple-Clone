@@ -6,15 +6,15 @@ Welcome to the Apple Homepage Clone repository! This project is a recreation of 
 
 ## Table of Contents ➡️
 
-- Live Demo
-- Features
-- Technologies Used
-- Author
-- License
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Author](#author)
+- [License](#license)
 
 <br>
 
-## Live Demo ▶️
+## Live Demo 
 
 Explore the live version of this project using the following link:
 
@@ -23,7 +23,7 @@ Explore the live version of this project using the following link:
    ```
 <br>
 
-## Features ⚙️
+## Features
 
    - **Responsive Design:** A fully responsive layout that adapts to various screen sizes and devices. <br>
    - **Navbar Interactivity:** Mimics the interactivity of the Apple homepage's navigation bar. <br>
@@ -33,7 +33,7 @@ Explore the live version of this project using the following link:
 
 <br>
 
-## Technologies Used 🛠️
+## Technologies Used
 
    - `HTML5`
    - `CSS3`
@@ -41,14 +41,14 @@ Explore the live version of this project using the following link:
 
 <br>
 
-## Author 👨‍💻
+## Author
 
 - **Author Name:** `Krishna Singha`
-- **GitHub:** [My GitHub Profile](https://github.com/krishna-singha)
-- **Linkedin:** [My Linkedin Profile](https://linkedin.com/in/krishnasingha)
+- **GitHub:** [Profile](https://github.com/krishna-singha)
+- **Linkedin:** [Profile](https://linkedin.com/in/krishnasingha)
 <br>
 
-## License 📄
+## License
    - This project is licensed under the `MIT License` - see the [LICENSE.md](https://github.com/krishna-singha/Apple-Clone/blob/main/LICENSE) file for details.
 
 ---
