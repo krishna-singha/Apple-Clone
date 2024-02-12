@@ -1,6 +1,6 @@
 # Apple-Clone
 
-Welcome to the Apple Homepage Clone repository! This project is a recreation of the Apple homepage using HTML, CSS, and JavaScript aiming to showcase web development skills and design aesthetics. Whether you're here to explore, contribute, or simply learn, we're excited to have you!. You can view the live version of this project at [Live Demo](https://krishna-singha.github.io/Apple-Clone/).
+Welcome to the Apple Homepage Clone repository! This project is a recreation of the Apple homepage using HTML, CSS, and JavaScript aiming to showcase web development skills and design aesthetics. Whether you're here to explore, contribute, or simply learn, we're excited to have you!
 
 <br>
 
@@ -16,11 +16,8 @@ Welcome to the Apple Homepage Clone repository! This project is a recreation of 
 
 ## Live Demo 
 
-Explore the live version of this project using the following link:
-
-   ```
-   https://krishna-singha.github.io/Apple-Clone/
-   ```
+   - Explore the live version of this project at: [Live Demo](https://krishna-singha.github.io/Apple-Clone/).
+   
 <br>
 
 ## Features
@@ -49,7 +46,7 @@ Explore the live version of this project using the following link:
 <br>
 
 ## License
-   - This project is licensed under the `MIT License` - see the [LICENSE.md](https://github.com/krishna-singha/Apple-Clone/blob/main/LICENSE) file for details.
+   - This project is licensed under the `MIT License` - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 

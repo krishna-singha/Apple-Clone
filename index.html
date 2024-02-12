@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple (India)</title>
+    <title>Apple(India) - Developed by Krishna Singha</title>
     
     <!---------- Favicon Linking ---------->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -463,6 +463,19 @@
     <!---------- JavaScript Linking ---------->
     <script src="js/hamburger.js"></script>
     <script src="js/toggleclick.js"></script>
+    <script>
+        document.oncontextmenu = () => {
+            return false;
+        }
+        document.onkeydown = (e) => {
+            if (e.key === 'F12' || e.key === 'f12') {
+                return false;
+            }
+            if (e.ctrlKey && e.key === 'u') {
+                return false;
+            }
+        }
+    </script>
     
 </body>
 </html>
